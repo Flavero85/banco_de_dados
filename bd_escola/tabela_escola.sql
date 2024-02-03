@@ -21,3 +21,10 @@ insert into estados (nome, sigla) VALUES('São Paulo','SP');
 SELECT * from estados;
 UPDATE estados set sigla='SP' where id = 1;
 DELETE from estados where id = 2;
+
+-- executar tabelas do computador --
+source c:\sql\estados.sql
+
+-- Organizar a tabela por "regiao" --
+select * from estados_novo order by regiao;
+
